@@ -1,0 +1,6 @@
+.usersList {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+.userForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.userForm label {
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+.userForm input {
+    margin: 5px 0px;
+    padding: 3px;
+}
+
+.userForm Button {
+    margin: 5px 0px;
+}
+
