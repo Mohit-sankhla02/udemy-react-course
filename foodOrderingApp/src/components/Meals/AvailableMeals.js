@@ -6,32 +6,32 @@ import MealItem from './MealItem/MealItem';
 const DUMMY_MEALS = [
     {
         id: 'm1',
-        name: 'Sushi',
-        description: 'Finest fish and veggies',
-        price: 22.99,
+        name: 'Dal Bati Churma',
+        description: 'Nice and Fresh Batis and Churma',
+        price: 140,
     },
     {
         id: 'm2',
-        name: 'Schnitzel',
-        description: 'A german specialty!',
-        price: 16.5,
+        name: 'Pav Bhaji',
+        description: '2 Pav with Bhaji',
+        price: 60,
     },
     {
         id: 'm3',
-        name: 'Barbecue Burger',
-        description: 'American, raw, meaty',
-        price: 12.99,
+        name: 'Chola Kulcha (Chappal)',
+        description: '2 Chappal with unlimited chola',
+        price: 65,
     },
     {
         id: 'm4',
-        name: 'Green Bowl',
-        description: 'Healthy...and green...',
-        price: 18.99,
+        name: 'Paneer Roll',
+        description: '4 Paneer Roll with 2 type of Chutney(Red and Green Chutney)',
+        price: 200,
     },
 ];
 
 const AvailableMeals = () => {
-    const mealsList = DUMMY_MEALS.map(meal => <MealItem id={meal.id} name={meal.name} description={meal.description} price={meal.price}></MealItem>);
+    const mealsList = DUMMY_MEALS.map(meal => <MealItem key={meal.id} id={meal.id} name={meal.name} description={meal.description} price={meal.price}></MealItem>);
 
     return <section className={classes.meals}>
         <Card>
