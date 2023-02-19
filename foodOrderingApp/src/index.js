@@ -1,11 +1,8 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Scrollbar } from 'smooth-scrollbar-react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Scrollbar>
-        <App />
-    </Scrollbar>
+    <App />
 );
